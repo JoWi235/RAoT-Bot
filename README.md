@@ -5,10 +5,10 @@ My plan is to devlop either a VM version or a Docer-container.
 If you have any problems contact me.
 To have the project working you need to have installed:
 1. RAoT -> https://roarkdev.itch.io/raot
-2. xdotool
-3. Xvfb
-4. x11vnc
-5. a software to view the VD(Virtuell Display), i used Remmina
+2. xdotool -> sudo apt-get install xdotool
+3. Xvfb -> sudo apt-get install Xvfb
+4. x11vnc -> sudo apt-get install x11vnc
+5. a software to view the VD(Virtuell Display), i used Remmina -> https://remmina.org/how-to-install-remmina/
 
 Before you can host an server you will need to add the presets to the game. You can add presets in the
 Host menu->Lobby Presets->Opnen Folder. If you already have presets please make sure, that the TeamEli2 
