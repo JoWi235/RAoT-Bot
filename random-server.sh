@@ -3,7 +3,7 @@
 export DISPLAY=:1
 
 gameMode=("DM" "TE")
-map=("castle" "forest" "underground" "city") #"cave" I removed it due to perfomence issus, but you can add it back in
+map=("castle" "forest" "underground" "city" "cave") #"cave" I removed it due to perfomence issus, but you can add it back in
 randomGMIndex=$(($RANDOM%${#gameMode[@]}))
 randomMapIndex=$(($RANDOM%${#map[@]}))
 
