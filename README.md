@@ -6,7 +6,7 @@ If you have any problems contact me.
 To have the project working you need to have installed:
 1. RAoT -> https://roarkdev.itch.io/raot
 2. xdotool -> sudo apt-get install xdotool
-3. Xvfb -> sudo apt-get install Xvfb
+3. Xvfb -> sudo apt-get install xvfb
 4. x11vnc -> sudo apt-get install x11vnc
 5. a software to view the VD(Virtuell Display), i used Remmina -> https://remmina.org/how-to-install-remmina/
 
