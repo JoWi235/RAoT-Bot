@@ -39,7 +39,7 @@ All the "()" are not part of the actual command so remove them in your command. 
 - automated-server.sh ("Test") ("test")
 - server-message.sh chat/terminal "MSG" (you have to write either chat or terminal and you replace the MSG to your message. Ingame command work over the terminal adn the in the message the command.)
 
-
+If you want to change the coordinates use the coordinate.sh script. Use it on a 1920x1080 display and multiplay the coordinates times 8/15(new x or y = 8/15*old x or y). Thats for the VD height.
 
 
 
