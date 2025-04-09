@@ -14,6 +14,7 @@ echo "Game started"
 sleep 15s
 xdotool mousemove 506 360 #this is, when you get the Erro "invlid Ip adress"
 sleep 2s
+xdotool mousemove 514 426 #other problem
 
 xdotool mousemove 272 200 click 1
 sleep 2s
