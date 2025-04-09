@@ -2,6 +2,7 @@
 This is a Bot to Host a Server in the game RAot.
 Right now it only works on Linux. I scripted it on Mint 22.1.
 My plan is to devlop either a VM version or a Docer-container.
+If you have any problems contact me.
 To have the project working you need to have installed:
 1. RAoT -> https://roarkdev.itch.io/raot
 2. xdotool
