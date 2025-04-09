@@ -42,6 +42,8 @@ All the "()" are not part of the actual command so remove them in your command. 
 If you want to change the coordinates use the coordinate.sh script. Use it on a 1920x1080 display and multiplay the coordinates times 8/15(new x or y = 8/15*old x or y). Thats for the VD height.
 You can add some presets and also make, that you can select the right preset, so you dont have to have the first and third preset as TE and DM.
 
+In Remmina you have to choose the "Remmina VNC-Plugin" as your Protucoll and your server is the "localhost:5900". My Colour-depth is 32 bpp, i don´t know what changes, while my quality was middle. My Keyboardlayout was the Map Meta Keys.
 
+I hope it works on your mashien, but a VM or a docker-container is only planned to do right now.
 
 
