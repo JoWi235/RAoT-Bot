@@ -1,0 +1,63 @@
+{
+    "description": "No description.",
+    "version": "2.086",
+    "creation": "2025-03-03T08:21:17.4056695Z",
+    "data": {
+        "teamData": [
+            {
+                "swordLunge": true,
+                "swordSpin": false,
+                "swordThrow": true,
+                "apgSingle": true,
+                "apgDouble": true,
+                "spearSingleDetonate": true,
+                "spearSingleImpale": true,
+                "spearDoubleDetonate": true,
+                "spearDoubleImpale": true,
+                "ammo": 0.75,
+                "gas": 1.0,
+                "durability": 1.0,
+                "regiment": 3,
+                "allowSmokeFlare": true,
+                "allowAcousticFlare": true,
+                "gasResupplyPermission": 0,
+                "ammoResupplyPermission": 0,
+                "infiniteAmmo": false,
+                "infiniteGas": true,
+                "weaponLimitsEnabled": false,
+                "swordLimit": 1.0,
+                "gunLimit": 1.0,
+                "spearLimit": 1.0
+            }
+        ],
+        "globalData": {
+            "mode": 1,
+            "teamBalance": 1,
+            "allowFreecam": true,
+            "friendlyFire": false,
+            "scoreLimit": 2,
+            "roundTime": 2,
+            "flareRange": 1,
+            "flareCooldown": 1,
+            "flareDuration": 1,
+            "enemyIconRange": 30,
+            "autoBalance": false,
+            "autoShuffle": false,
+            "tkAutoKick": false,
+            "firstPersonMode": false,
+            "customSettings": []
+        },
+        "lobbyData": {
+            "lobbyName": "EU DM Infinitive Gas",
+            "password": "",
+            "region": 6,
+            "natType": 2,
+            "maxPlayers": 16,
+            "unstableAutoKick": false,
+            "afkAutoKick": -1,
+            "requireDiscordLogin": false,
+            "pingLimit": -1
+        },
+        "mapName": "City"
+    }
+}

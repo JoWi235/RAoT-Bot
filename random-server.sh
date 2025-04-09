@@ -19,4 +19,4 @@ sleep 1m
 
 ./server-message.sh terminal endmatch
 sleep 5s
-./change-game.sh $nextgameMode $nextMap "Test only" "test"
+./change-game.sh $nextgameMode $nextMap "$3" "$4"

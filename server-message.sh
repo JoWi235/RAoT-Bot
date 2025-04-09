@@ -1,7 +1,7 @@
 #!/bin/bash
 export DISPLAY=:1
 if [ -z "$1" ] || [ -z "$2" ];then
-    echo "Fehlende Parameter: chat/terminal MSG"
+    echo "Missing Arguments: chat/terminal MSG"
     exit 1
 fi
 

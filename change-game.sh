@@ -3,7 +3,7 @@
 export DISPLAY=:1
 
 if [ -z "$1" ]; then
-  echo "Fehlende Parameter"
+  echo "Missing Arguments"
   exit 1
 fi
 

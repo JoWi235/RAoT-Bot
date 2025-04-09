@@ -1,9 +1,9 @@
 #!/bin/bash
 
-export DISPLAY=:1
+#export DISPLAY=:1
 
 if [ -z "$1" ]; then
-  echo "Fehlende Parameter"
+  echo "Missing Arguments"
   exit 1
 fi
 
@@ -19,25 +19,36 @@ right(){
 
 map=""
 
-if [ -n "$2" ]; then
-  map=$2
+if [ -z "$2" ]; then
+  echo "Missing Arguments"
+  exit 1
+else 
+    map=$2
 fi
 
 xdotool mousemove 256 505 click 1
 sleep 2s
 echo "Reading presets..."
 
-if [ "$1" == "DM" ]; then
-    xdotool mousemove 440 165
-    sleep 2s
-    xdotool click 1
-    echo "Load Deathmatch..."
-elif [ "$1" == "TE" ]; then
-    xdotool mousemove 422 138
-    sleep 2s
-    xdotool click 1
-    echo "Load Team Elimination..."
-fi
+case $1 in 
+    DM)
+        xdotool mousemove 440 165
+        sleep 2s
+        xdotool click 1
+        echo "Load Deathmatch..."
+        ;;
+    TE)
+        xdotool mousemove 422 138
+        sleep 2s
+        xdotool click 1
+        echo "Load Team Elimination..."
+        ;;
+    *)
+        echo "Missing or wrong Parrameter"
+        exit 1
+        ;;
+esac
+
 sleep 2s
 xdotool mousemove 573 261
 sleep 2s
@@ -57,20 +68,25 @@ if [ -n "$4" ]; then
     echo "Lobby Password set to $4"
 fi
 sleep 2s
-if [ "$map" == "castle" ]; then
-    left
-elif [ "$map" == "forest" ];then
-    right
-elif [ "$map" == "cave" ]; then
-    right
-    right
-elif [ "$map" == "underground" ]; then
-    right
-    right
-    right
-elif [ "$map" == "city" ]; then
-     :
-fi
+
+case $map in
+    castle)
+        left
+        ;;
+    forest)
+        right
+        ;;
+    underground)
+        right
+        right
+        right   
+        ;;
+    city)
+        :
+        ;;
+    *)
+        echo ""
+esac
 
 xdotool mousemove 562 488
 sleep 2s

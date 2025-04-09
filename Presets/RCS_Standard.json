@@ -1,0 +1,93 @@
+{
+    "description": "No description.",
+    "version": "2.086",
+    "creation": "2025-02-24T20:26:47.1938896Z",
+    "data": {
+        "teamData": [
+            {
+                "swordLunge": true,
+                "swordSpin": false,
+                "swordThrow": true,
+                "apgSingle": true,
+                "apgDouble": true,
+                "spearSingleDetonate": true,
+                "spearSingleImpale": true,
+                "spearDoubleDetonate": true,
+                "spearDoubleImpale": true,
+                "ammo": 0.75,
+                "gas": 1.0,
+                "durability": 1.0,
+                "regiment": 3,
+                "allowSmokeFlare": true,
+                "allowAcousticFlare": true,
+                "gasResupplyPermission": 0,
+                "ammoResupplyPermission": 0,
+                "infiniteAmmo": false,
+                "infiniteGas": false,
+                "weaponLimitsEnabled": false,
+                "swordLimit": 1.0,
+                "gunLimit": 1.0,
+                "spearLimit": 1.0
+            },
+            {
+                "swordLunge": true,
+                "swordSpin": false,
+                "swordThrow": true,
+                "apgSingle": true,
+                "apgDouble": true,
+                "spearSingleDetonate": true,
+                "spearSingleImpale": true,
+                "spearDoubleDetonate": true,
+                "spearDoubleImpale": true,
+                "ammo": 0.75,
+                "gas": 1.0,
+                "durability": 1.0,
+                "regiment": 2,
+                "allowSmokeFlare": true,
+                "allowAcousticFlare": true,
+                "gasResupplyPermission": 0,
+                "ammoResupplyPermission": 0,
+                "infiniteAmmo": false,
+                "infiniteGas": false,
+                "weaponLimitsEnabled": false,
+                "swordLimit": 1.0,
+                "gunLimit": 1.0,
+                "spearLimit": 1.0
+            }
+        ],
+        "globalData": {
+            "mode": 4,
+            "teamBalance": 2,
+            "allowFreecam": false,
+            "friendlyFire": true,
+            "scoreLimit": 3,
+            "roundTime": 1,
+            "flareRange": 0,
+            "flareCooldown": 2,
+            "flareDuration": 1,
+            "enemyIconRange": 30,
+            "autoBalance": false,
+            "autoShuffle": false,
+            "tkAutoKick": false,
+            "firstPersonMode": false,
+            "customSettings": [
+                1,
+                5,
+                3,
+                2
+            ]
+        },
+        "lobbyData": {
+            "lobbyName": "RCS Standard",
+            "password": "rcs",
+            "region": 6,
+            "natType": 2,
+            "maxPlayers": 14,
+            "unstableAutoKick": false,
+            "afkAutoKick": -1,
+            "requireDiscordLogin": false,
+            "pingLimit": -1
+        },
+        "mapName": "City"
+    }
+}
