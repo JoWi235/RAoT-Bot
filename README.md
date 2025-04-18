@@ -1,14 +1,17 @@
 # RAoT-Bot
 This is a Bot to Host a Server in the game RAot.
-Right now it only works on Linux. I scripted it on Mint 22.1.
-My plan is to devlop either a VM version or a Docer-container.
+Currently i am working on some connection issuse, if you want to help contact me.
+!!!This version has currently a Strict NAT type ingame and i try to fix that. Please contact me if you know how i can solve that!!!
+I develop the first time with Docker and Kubernetes so if you know that contacte me!
+This version is a Docker kubernetes version, but is currently in development.
 If you have any problems contact me.
+
 To have the project working you need to have installed:
-1. RAoT -> https://roarkdev.itch.io/raot
-2. xdotool -> sudo apt-get install xdotool
-3. Xvfb -> sudo apt-get install xvfb
-4. x11vnc -> sudo apt-get install x11vnc
-5. a software to view the VD(Virtuell Display), i used Remmina -> https://remmina.org/how-to-install-remmina/
+1. RAoT as an .tar.gz -> https://roarkdev.itch.io/raot
+2. Docker Kubernetes, i used Docker Destop
+3. a software to view the VD(Virtuell Display), i used RealVnc -> https://www.realvnc.com/de/connect/download/viewer/
+
+I will try to make this on DockerHub available.
 
 Before you can host an server you will need to add the presets to the game. You can add presets in the
 Host menu->Lobby Presets->Opnen Folder. If you already have presets please make sure, that the TeamEli2 
@@ -17,7 +20,6 @@ but if there are not in the correct order it won´t work. In the project folder,
 you will need to change the absolute path to your RAoT location. Moreover you will need to change the ingame chat to the key "y" and the game terminal to th key "z".
 You also could change them in the script if you want, but no key combinations. Either you change them ingame or in the script server-message.sh.
 
-To setup a server you have to run the server-setup.sh.You maybe have to do the "chmod +x" command to all the .sh scripts to make them a runable Programm.
 You have to add at least 2 arguemnts.
 First is the game mode. Right now you have the option between DM(Deathmatch) or TE(Team Elimination).
 DM has infinite gas, but not infinite ammo.
@@ -42,7 +44,6 @@ All the "()" are not part of the actual command so remove them in your command. 
 If you want to change the coordinates use the coordinate.sh script. Use it on a 1920x1080 display and multiplay the coordinates times 8/15(new x or y = 8/15*old x or y). Thats for the VD height.
 You can add some presets and also make, that you can select the right preset, so you dont have to have the first and third preset as TE and DM.
 
-In Remmina you have to choose the "Remmina VNC-Plugin" as your Protucoll and your server is the "localhost:5900". My Colour-depth is 32 bpp, i don´t know what changes, while my quality was middle. My Keyboardlayout was the Map Meta Keys.
 
 I hope it works on your mashien, but a VM or a docker-container is only planned to do right now.
 
