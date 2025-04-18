@@ -11,6 +11,8 @@ To have the project working you need to have installed:
 2. Docker Kubernetes, i used Docker Destop
 3. a software to view the VD(Virtuell Display), i used RealVnc -> https://www.realvnc.com/de/connect/download/viewer/
 
+Put the .tar.gz in the project folder.
+
 I will try to make this on DockerHub available.
 
 Before you can host an server you will need to add the presets to the game. You can add presets in the
