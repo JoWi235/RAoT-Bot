@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: raot-bot
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: raot-bot
+  template:
+    metadata:
+      labels:
+        app: raot-bot
+    spec:
+      hostNetwork: true
+      containers:
+      - name: raot-bot
+        image: raot-bot:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 5900
+        - containerPort: 15937
+        envFrom:
+        - configMapRef:
+            name: raot-config
+        resources:
+          requests:
+            memory: "2Gi"
+            cpu: "3000m"
+          limits:
+            memory: "5Gi"
+            cpu: "5000m"
+        

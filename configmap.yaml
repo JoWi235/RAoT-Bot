@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: raot-config
+data:
+  GAME_MODE: "DM"
+  MAP_NAME: "castle"
+  LOBBY_NAME: "Kubernetes-Lobby"
+  LOBBY_PASSWORD: "k8s-pass"

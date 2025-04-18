@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export DISPLAY=:1
+#export DISPLAY=:1
 
 if [ -z "$1" ]; then
   echo "Missing Arguments"
